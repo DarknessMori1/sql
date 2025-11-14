@@ -70,6 +70,15 @@ class Product(ProductBase):
     class Config: 
         from_attributes = True 
 
+def get_user():
+    return {"user_id": 1, "username": "admin"}
+
+def check_admin(user: dict = Depends(get_user)):
+    if user.get("username") != "admin":
+        logger.warning("user not admin")
+        raise HTTPException(status_code=403, detail="NOT admin")
+    return True
+    
 # Зависимость для получения соединения с БД 
 def get_db_connection(): 
     for attempt in range(3):
@@ -400,15 +409,6 @@ async def get_sorted_products(
     except Exception as e:
         logger.error("Error sorted products")
         raise HTTPException(status_code=500, detail="server error")
-
-def get_user():
-    return {"user_id": 1, "username": "admin"}
-
-def check_admin(user: dict = Depends(get_user)):
-    if user.get("username") != "admin":
-        logger.warning("user not admin")
-        raise HTTPException(status_code=403, detail="NOT admin")
-    return True
 
 request_times = {}
 
