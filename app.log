@@ -1,0 +1,21 @@
+2025-11-14 18:10:44,411 - __main__ - INFO - Starting server
+2025-11-14 18:24:24,464 - __main__ - INFO - Starting server
+2025-11-14 18:26:35,423 - __main__ - INFO - Retrying connection
+2025-11-14 18:26:36,432 - __main__ - INFO - Retrying connection
+2025-11-14 18:26:37,437 - __main__ - ERROR - connection failed
+2025-11-14 18:26:37,451 - __main__ - INFO - Retrying connection
+2025-11-14 18:26:38,455 - __main__ - INFO - Retrying connection
+2025-11-14 18:26:39,460 - __main__ - ERROR - connection failed
+2025-11-14 18:31:41,007 - __main__ - INFO - Starting server
+2025-11-14 18:32:17,074 - __main__ - INFO - Retrying connection
+2025-11-14 18:32:18,084 - __main__ - INFO - Retrying connection
+2025-11-14 18:32:19,089 - __main__ - ERROR - connection failed
+2025-11-14 18:32:19,098 - __main__ - INFO - Retrying connection
+2025-11-14 18:32:20,104 - __main__ - INFO - Retrying connection
+2025-11-14 18:32:21,109 - __main__ - ERROR - connection failed
+2025-11-14 18:39:46,847 - __main__ - INFO - Starting server
+2025-11-14 18:40:00,881 - __main__ - ERROR - Error sorted products
+2025-11-14 18:40:00,892 - __main__ - WARNING - Invalid sort
+2025-11-14 18:48:59,598 - __main__ - INFO - Starting server
+2025-11-14 18:49:04,543 - __main__ - INFO - Retrieved 6 products with sort type: price
+2025-11-14 18:49:04,553 - __main__ - WARNING - Invalid sort
